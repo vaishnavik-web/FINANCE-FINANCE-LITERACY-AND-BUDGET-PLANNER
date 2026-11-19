@@ -1,0 +1,8 @@
+{
+  "name": "Smart Financial Literacy & Budget Planner",
+  "description": "Understand Money. Manage Better. Build Your Future. Household budget management, 60 financial calculators, Indian government schemes, financial literacy curriculum, and AI financial guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

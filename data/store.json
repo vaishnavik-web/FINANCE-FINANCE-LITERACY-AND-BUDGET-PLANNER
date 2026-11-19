@@ -1,0 +1,1679 @@
+{
+  "users": {
+    "usr-admin-seed": {
+      "profile": {
+        "id": "usr-admin-seed",
+        "fullName": "Portal Administrator",
+        "email": "admin@smartfinance.in",
+        "role": "admin",
+        "preferredLanguage": "en",
+        "currency": "INR",
+        "monthlyIncomeRange": "₹50,000 - ₹1,00,000",
+        "financialGoalsSummary": "Maintain verified Indian scheme records & financial literacy modules",
+        "customIncomeCategories": [],
+        "customExpenseCategories": [],
+        "notificationPreferences": {
+          "budgetApproaching": true,
+          "budgetExceeded": true,
+          "savingsMilestones": true,
+          "monthlySummary": true,
+          "billReminders": true,
+          "schemeUpdates": true,
+          "learningUpdates": true
+        },
+        "recurringReminders": [],
+        "privacyShareAnalytics": true,
+        "createdAt": "2026-11-19T15:48:34.061Z"
+      },
+      "passwordHash": "e121263b79c06a6062fd1b0d49b4999c3542834c98836391cdd969eea4f7881e85b84814a7b44f14d55bd4109e52f73f7c8cf6fdae653fcd603914d08cdeb0cf",
+      "passwordSalt": "63610838bfdab71e2f74f065c927a3e9"
+    },
+    "usr-6cf50655-f234-488c-9e70-07d651702e9f": {
+      "profile": {
+        "id": "usr-6cf50655-f234-488c-9e70-07d651702e9f",
+        "fullName": "Smoke Test User",
+        "email": "smoke_1795103342511@example.com",
+        "role": "user",
+        "preferredLanguage": "en",
+        "currency": "INR",
+        "monthlyIncomeRange": "25000-50000",
+        "financialGoalsSummary": "",
+        "customIncomeCategories": [],
+        "customExpenseCategories": [],
+        "notificationPreferences": {
+          "budgetApproaching": true,
+          "budgetExceeded": true,
+          "savingsMilestones": true,
+          "monthlySummary": true,
+          "billReminders": true,
+          "schemeUpdates": true,
+          "learningUpdates": true
+        },
+        "recurringReminders": [],
+        "privacyShareAnalytics": false,
+        "createdAt": "2026-11-19T15:49:02.588Z"
+      },
+      "passwordHash": "b25903b3b789e21d883afbbdd0cdf5fa7ef7b950f6d5970a2209edd3f8397c23f20fe2ac6f7f690ccbdb2a7b61ede9cba20ddd6fbf22e8bd8b9ec8126f7f9f29",
+      "passwordSalt": "32e3fcc641e8112b8ee2a220a4c2f412"
+    }
+  },
+  "userStores": {
+    "usr-admin-seed": {
+      "incomes": [],
+      "expenses": [],
+      "budgets": [
+        {
+          "id": "budget-2026-11",
+          "month": "2026-11",
+          "totalMonthlyBudget": 25000,
+          "dailyLimit": 1000,
+          "weeklyLimit": 6500,
+          "carryForwardSavings": true,
+          "carriedForwardAmount": 0,
+          "categories": [
+            {
+              "category": "Food",
+              "allocated": 5000
+            },
+            {
+              "category": "Groceries",
+              "allocated": 4000
+            },
+            {
+              "category": "House rent",
+              "allocated": 7000
+            },
+            {
+              "category": "Education",
+              "allocated": 3000
+            },
+            {
+              "category": "Transportation",
+              "allocated": 2000
+            },
+            {
+              "category": "Electricity",
+              "allocated": 1500
+            },
+            {
+              "category": "Medical",
+              "allocated": 1500
+            },
+            {
+              "category": "Other expenses",
+              "allocated": 1000
+            }
+          ],
+          "updatedAt": "2026-11-19T15:48:34.062Z"
+        }
+      ],
+      "goals": [],
+      "calculatorHistory": [],
+      "completedTopicIds": [],
+      "quizScores": {},
+      "readNotificationIds": [],
+      "taxConfig": {
+        "financialYear": "FY 2025-26",
+        "assessmentYear": "AY 2026-27",
+        "newRegimeStandardDeduction": 75000,
+        "oldRegimeStandardDeduction": 50000,
+        "newRegimeRebateLimit": 1200000,
+        "oldRegimeRebateLimit": 500000,
+        "cessRatePercent": 4,
+        "newRegimeSlabs": [
+          {
+            "upto": 400000,
+            "rate": 0
+          },
+          {
+            "upto": 800000,
+            "rate": 5
+          },
+          {
+            "upto": 1200000,
+            "rate": 10
+          },
+          {
+            "upto": 1600000,
+            "rate": 15
+          },
+          {
+            "upto": 2000000,
+            "rate": 20
+          },
+          {
+            "upto": 2400000,
+            "rate": 25
+          },
+          {
+            "upto": null,
+            "rate": 30
+          }
+        ],
+        "oldRegimeSlabs": [
+          {
+            "upto": 250000,
+            "rate": 0
+          },
+          {
+            "upto": 500000,
+            "rate": 5
+          },
+          {
+            "upto": 1000000,
+            "rate": 20
+          },
+          {
+            "upto": null,
+            "rate": 30
+          }
+        ]
+      }
+    },
+    "usr-6cf50655-f234-488c-9e70-07d651702e9f": {
+      "incomes": [],
+      "expenses": [],
+      "budgets": [
+        {
+          "id": "budget-2026-11",
+          "month": "2026-11",
+          "totalMonthlyBudget": 25000,
+          "dailyLimit": 1000,
+          "weeklyLimit": 6500,
+          "carryForwardSavings": true,
+          "carriedForwardAmount": 0,
+          "categories": [
+            {
+              "category": "Food",
+              "allocated": 5000
+            },
+            {
+              "category": "Groceries",
+              "allocated": 4000
+            },
+            {
+              "category": "House rent",
+              "allocated": 7000
+            },
+            {
+              "category": "Education",
+              "allocated": 3000
+            },
+            {
+              "category": "Transportation",
+              "allocated": 2000
+            },
+            {
+              "category": "Electricity",
+              "allocated": 1500
+            },
+            {
+              "category": "Medical",
+              "allocated": 1500
+            },
+            {
+              "category": "Other expenses",
+              "allocated": 1000
+            }
+          ],
+          "updatedAt": "2026-11-19T15:49:02.588Z"
+        }
+      ],
+      "goals": [],
+      "calculatorHistory": [],
+      "completedTopicIds": [],
+      "quizScores": {},
+      "readNotificationIds": [],
+      "taxConfig": {
+        "financialYear": "FY 2025-26",
+        "assessmentYear": "AY 2026-27",
+        "newRegimeStandardDeduction": 75000,
+        "oldRegimeStandardDeduction": 50000,
+        "newRegimeRebateLimit": 1200000,
+        "oldRegimeRebateLimit": 500000,
+        "cessRatePercent": 4,
+        "newRegimeSlabs": [
+          {
+            "upto": 400000,
+            "rate": 0
+          },
+          {
+            "upto": 800000,
+            "rate": 5
+          },
+          {
+            "upto": 1200000,
+            "rate": 10
+          },
+          {
+            "upto": 1600000,
+            "rate": 15
+          },
+          {
+            "upto": 2000000,
+            "rate": 20
+          },
+          {
+            "upto": 2400000,
+            "rate": 25
+          },
+          {
+            "upto": null,
+            "rate": 30
+          }
+        ],
+        "oldRegimeSlabs": [
+          {
+            "upto": 250000,
+            "rate": 0
+          },
+          {
+            "upto": 500000,
+            "rate": 5
+          },
+          {
+            "upto": 1000000,
+            "rate": 20
+          },
+          {
+            "upto": null,
+            "rate": 30
+          }
+        ]
+      }
+    }
+  },
+  "schemes": [
+    {
+      "id": "pmjdy",
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "shortCode": "PMJDY",
+      "category": "Financial inclusion schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Women",
+        "Farmers"
+      ],
+      "description": "National Mission for Financial Inclusion offering universal access to basic savings bank deposit accounts, RuPay debit cards, and direct benefit transfers without minimum balance requirements.",
+      "eligibility": [
+        "Any Indian citizen aged 10 years and above.",
+        "Minors above 10 years can open accounts operated independently or with guardians.",
+        "Individuals without an existing basic savings bank account."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card (or officially valid KYC document such as Voter ID, Driving License, PAN, Passport, or NREGA Job Card).",
+        "Two recent passport-size photographs.",
+        "Completed account opening form at bank branch or Business Correspondent (Bank Mitra)."
+      ],
+      "benefits": [
+        "Zero minimum balance requirement in Basic Savings Bank Deposit Account (BSBDA).",
+        "RuPay Debit Card with inbuilt accidental insurance cover (verify current terms with issuing bank; ₹2 lakh for accounts opened after 28.08.2018).",
+        "Overdraft facility up to ₹10,000 for eligible account holders after satisfactory operation.",
+        "Direct Benefit Transfer (DBT) reception for central and state subsidies."
+      ],
+      "applicationProcedure": [
+        "Visit any scheduled commercial bank branch or authorized Bank Mitra outlet.",
+        "Submit the PMJDY account opening form with KYC documents.",
+        "Complete biometric e-KYC or document verification and collect passbook and RuPay card."
+      ],
+      "importantConditions": [
+        "Account must remain active with RuPay card usage within stipulated periods to maintain accidental cover eligibility.",
+        "Only one BSBDA account is permitted per individual across banks."
+      ],
+      "deadline": "Ongoing (Open year-round)",
+      "officialWebsite": "https://pmjdy.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Active nationwide across all public and private sector banks with DBT integration.",
+      "keywords": [
+        "zero balance",
+        "bank account",
+        "rupay",
+        "financial inclusion",
+        "jan dhan"
+      ]
+    },
+    {
+      "id": "ssy",
+      "name": "Sukanya Samriddhi Yojana (SSY)",
+      "shortCode": "SSY",
+      "category": "Savings schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Women",
+        "Families"
+      ],
+      "description": "Government-backed small savings scheme designed for the long-term education and future security of a girl child, offering tax benefits under Section 80C and sovereign guarantee.",
+      "eligibility": [
+        "Natural or legal guardian on behalf of a girl child.",
+        "Girl child must be below 10 years of age at the time of account opening.",
+        "Maximum two accounts per family (exception for twins/triplets on second birth)."
+      ],
+      "requiredDocuments": [
+        "Birth certificate of the girl child.",
+        "Identity and address proof of the parent or legal guardian (Aadhaar/PAN).",
+        "Account opening form and initial deposit (minimum ₹250)."
+      ],
+      "benefits": [
+        "Government-notified quarterly interest rate (compounded annually; verify current quarterly rate on nsiindia.gov.in).",
+        "Deposits qualify for deduction under Section 80C up to ₹1.5 lakh per financial year (under Old Tax Regime).",
+        "Interest earned and maturity proceeds are exempt from income tax under current EEE status.",
+        "Partial withdrawal up to 50% allowed after the girl turns 18 or passes 10th standard for higher education."
+      ],
+      "applicationProcedure": [
+        "Visit an authorized Post Office or designated public/private sector bank branch.",
+        "Fill out the Sukanya Samriddhi Account opening form with guardian KYC and child birth certificate.",
+        "Deposit between ₹250 and ₹1,50,000 per financial year."
+      ],
+      "importantConditions": [
+        "Account matures 21 years from the date of opening or upon marriage of the girl child after age 18.",
+        "Minimum annual deposit of ₹250 is required to keep the account active (penalty applies on default)."
+      ],
+      "deadline": "Ongoing (Before girl child turns 10)",
+      "officialWebsite": "https://www.nsiindia.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Quarterly small savings interest rates notified by Ministry of Finance; check NSI portal for current quarter rate.",
+      "keywords": [
+        "girl child",
+        "sukanya",
+        "80c",
+        "post office",
+        "savings"
+      ]
+    },
+    {
+      "id": "ppf",
+      "name": "Public Provident Fund (PPF)",
+      "shortCode": "PPF",
+      "category": "Savings schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Families"
+      ],
+      "description": "Long-term 15-year sovereign-backed savings and retirement corpus builder with tax-exempt interest and flexible annual contributions.",
+      "eligibility": [
+        "Any resident Indian citizen in their individual capacity.",
+        "Parents/guardians may also open an account on behalf of a minor.",
+        "NRIs are not eligible to open new PPF accounts."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card and PAN Card.",
+        "Address proof and passport-size photograph.",
+        "Completed Form A (PPF account opening form)."
+      ],
+      "benefits": [
+        "Sovereign-backed capital protection and tax-free compounded annual interest.",
+        "Minimum deposit ₹500 and maximum ₹1,50,000 per financial year.",
+        "Loan facility available between 3rd and 6th financial year; partial withdrawals permitted from 7th year.",
+        "Extendable in 5-year blocks after the 15-year lock-in period."
+      ],
+      "applicationProcedure": [
+        "Apply online via net banking of authorized banks or visit a Post Office branch.",
+        "Submit KYC documents and initial deposit (₹500 minimum).",
+        "Manage annual contributions via lump sum or up to 12 monthly installments."
+      ],
+      "importantConditions": [
+        "15-year lock-in period applies; premature closure permitted only under specified medical or higher education conditions after 5 years.",
+        "Only one PPF account per individual is permitted."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://www.nsiindia.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Deposits made on or before the 5th of each month earn interest for that full month.",
+      "keywords": [
+        "ppf",
+        "provident fund",
+        "tax free",
+        "15 years",
+        "retirement"
+      ]
+    },
+    {
+      "id": "nsc",
+      "name": "National Savings Certificate (NSC VIII Issue)",
+      "shortCode": "NSC",
+      "category": "Savings schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Senior Citizens"
+      ],
+      "description": "Fixed-income 5-year Post Office savings instrument with guaranteed compounded interest and Section 80C deduction eligibility.",
+      "eligibility": [
+        "Single adult, joint adults (up to 3), or guardian on behalf of a minor.",
+        "Resident Indian citizens only (NRIs and HUFs not eligible)."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card, PAN Card, and photograph.",
+        "Post Office savings account or KYC verification documents."
+      ],
+      "benefits": [
+        "Fixed interest rate locked at purchase for the 5-year tenure, compounded annually.",
+        "Minimum investment ₹1,000 with no upper ceiling.",
+        "Accepted as collateral by banks for secured loans."
+      ],
+      "applicationProcedure": [
+        "Visit any India Post office or use India Post Internet Banking.",
+        "Submit NSC purchase application with KYC and deposit amount."
+      ],
+      "importantConditions": [
+        "5-year lock-in period; premature encashment allowed only in specific contingencies like death of holder or court order.",
+        "Annual accrued interest is taxable, though reinvested interest (years 1-4) qualifies under 80C limits in Old Tax Regime."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://www.nsiindia.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Available electronically via Post Office e-Passbook and DOP Internet Banking.",
+      "keywords": [
+        "nsc",
+        "post office",
+        "fixed income",
+        "5 year",
+        "certificate"
+      ]
+    },
+    {
+      "id": "apy",
+      "name": "Atal Pension Yojana (APY)",
+      "shortCode": "APY",
+      "category": "Pension schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Small Business",
+        "Women"
+      ],
+      "description": "Guaranteed monthly pension scheme administered by PFRDA providing ₹1,000 to ₹5,000 monthly pension after age 60 for unorganized sector and eligible citizens.",
+      "eligibility": [
+        "Indian citizens aged between 18 and 40 years.",
+        "Must hold an active savings bank or post office savings account.",
+        "From 1 Oct 2022, individuals who are or have been income tax payers are ineligible to join APY."
+      ],
+      "requiredDocuments": [
+        "Savings bank account number and Aadhaar card.",
+        "Active mobile number for SMS alerts and PRAN generation."
+      ],
+      "benefits": [
+        "Guaranteed minimum monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 starting at age 60.",
+        "Spouse continues to receive the same pension after subscriber’s demise.",
+        "Nominee receives accumulated pension corpus after demise of both subscriber and spouse."
+      ],
+      "applicationProcedure": [
+        "Approach your bank branch or apply through your bank’s net banking / mobile banking portal.",
+        "Select desired pension slab and contribution frequency (monthly, quarterly, or half-yearly).",
+        "Authorize auto-debit from your savings account."
+      ],
+      "importantConditions": [
+        "Contributions must continue until age 60; auto-debit requires sufficient account balance.",
+        "Voluntary exit rules govern corpus return before age 60."
+      ],
+      "deadline": "Ongoing (Age 18–40 at enrollment)",
+      "officialWebsite": "https://www.npscra.nsdl.co.in/scheme-details.php",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Non-taxpayer eligibility condition verified per PFRDA guidelines.",
+      "keywords": [
+        "pension",
+        "atal",
+        "retirement",
+        "pfrda",
+        "unorganized sector"
+      ]
+    },
+    {
+      "id": "pmjjby",
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "shortCode": "PMJJBY",
+      "category": "Insurance schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Families",
+        "Women"
+      ],
+      "description": "Affordable one-year renewable life insurance cover of ₹2 lakh for death due to any cause, linked directly to a savings bank account.",
+      "eligibility": [
+        "Individuals aged 18 to 50 years with a participating bank or post office savings account.",
+        "Consent for annual auto-debit of premium."
+      ],
+      "requiredDocuments": [
+        "Savings bank account details and Aadhaar linkage.",
+        "Nominee details on consent-cum-declaration form."
+      ],
+      "benefits": [
+        "₹2,00,000 life insurance cover payable to the nominee on death of the insured due to any reason.",
+        "Annual premium of ₹436 (pro-rata based on quarter of enrollment; confirm current rate at bank)."
+      ],
+      "applicationProcedure": [
+        "Enroll through your bank branch, Bank Mitra, or bank mobile app / net banking.",
+        "Complete consent form with nominee information for annual auto-renewal."
+      ],
+      "importantConditions": [
+        "Coverage period runs from 1 June to 31 May each year.",
+        "30-day lien period applies from enrollment date (except accidental death)."
+      ],
+      "deadline": "Annual renewal cycle (1 June – 31 May)",
+      "officialWebsite": "https://jansuraksha.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Enrollable digitally via JanSamarth / bank portals.",
+      "keywords": [
+        "life insurance",
+        "pmjjby",
+        "2 lakh",
+        "term cover"
+      ]
+    },
+    {
+      "id": "pmsby",
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "shortCode": "PMSBY",
+      "category": "Insurance schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Farmers",
+        "Women"
+      ],
+      "description": "Low-cost personal accidental death and disability insurance scheme offering ₹2 lakh coverage for ₹20 annual premium.",
+      "eligibility": [
+        "Bank or post office savings account holders aged 18 to 70 years.",
+        "Consent for annual auto-debit."
+      ],
+      "requiredDocuments": [
+        "Aadhaar-linked bank account.",
+        "Filled enrollment and nominee declaration form."
+      ],
+      "benefits": [
+        "₹2,00,000 cover for accidental death or total permanent disability.",
+        "₹1,00,000 cover for permanent partial disability (e.g., loss of one eye or one limb).",
+        "Nominal annual premium of ₹20."
+      ],
+      "applicationProcedure": [
+        "Apply via your bank branch, mobile banking app, or Jan Suraksha portal.",
+        "Ensure ₹20 balance prior to annual auto-debit cycle."
+      ],
+      "importantConditions": [
+        "Covers accidental death and specified disabilities only; natural death is not covered.",
+        "Annual renewal cycle runs 1 June to 31 May."
+      ],
+      "deadline": "Annual renewal cycle (1 June – 31 May)",
+      "officialWebsite": "https://jansuraksha.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Premium remains ₹20/year under Jan Suraksha framework.",
+      "keywords": [
+        "accident insurance",
+        "pmsby",
+        "20 rupees",
+        "suraksha"
+      ]
+    },
+    {
+      "id": "pmkisan",
+      "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "shortCode": "PM-KISAN",
+      "category": "Farmers' schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Farmers"
+      ],
+      "description": "Central sector income support scheme providing ₹6,000 per year in three equal installments of ₹2,000 directly into eligible landholding farmer families’ bank accounts.",
+      "eligibility": [
+        "All landholding farmer families having cultivable landholding in their names (subject to exclusion criteria).",
+        "Institutional landholders, constitutional post holders, and income tax payers are excluded."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card (mandatory for e-KYC).",
+        "Landholding ownership records (RTC / Khatauni / Patta).",
+        "Aadhaar-seeded active bank account."
+      ],
+      "benefits": [
+        "₹6,000 annual financial support transferred directly via DBT in three ₹2,000 installments.",
+        "Helps meet agricultural input and household liquidity needs."
+      ],
+      "applicationProcedure": [
+        "Register online at pmkisan.gov.in or via local Common Service Centre (CSC) / Patwari / Agriculture Officer.",
+        "Complete mandatory e-KYC through OTP or biometric authentication at CSC."
+      ],
+      "importantConditions": [
+        "e-KYC and land seeding verification are mandatory to receive installments.",
+        "Bank account must be Aadhaar-seeded (NPCI DBT enabled)."
+      ],
+      "deadline": "Ongoing registration",
+      "officialWebsite": "https://pmkisan.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "e-KYC via PM-KISAN mobile app face authentication and CSC centers is active.",
+      "keywords": [
+        "farmer",
+        "kisan",
+        "agriculture",
+        "6000",
+        "dbt"
+      ]
+    },
+    {
+      "id": "pmjay",
+      "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+      "shortCode": "AB-PMJAY",
+      "category": "Healthcare schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Families",
+        "Senior Citizens",
+        "General Public"
+      ],
+      "description": "Health assurance scheme providing cashless secondary and tertiary hospitalization cover up to ₹5 lakh per family per year at empanelled public and private hospitals.",
+      "eligibility": [
+        "Eligible families identified via SECC 2011 deprivation/occupational criteria and covered state extensions.",
+        "Senior citizens aged 70+ are also eligible under the Ayushman Vaya Vandana extension regardless of income (verify enrollment on beneficiary portal)."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card and Ration Card / Family ID.",
+        "Active mobile number for Ayushman card e-KYC."
+      ],
+      "benefits": [
+        "Up to ₹5,00,000 annual cashless hospitalization cover per eligible family.",
+        "Covers pre-hospitalization (3 days) and post-hospitalization (15 days) expenses including diagnostics and medicines.",
+        "Portable across empanelled hospitals nationwide."
+      ],
+      "applicationProcedure": [
+        "Check eligibility on beneficiary.nha.gov.in or Ayushman App.",
+        "Complete Aadhaar e-KYC online or at an empanelled hospital / CSC to download your Ayushman Card."
+      ],
+      "importantConditions": [
+        "Cashless treatment applies strictly at empanelled hospitals for covered medical packages.",
+        "No cap on family size or age within eligible family unit."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://pmjay.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Senior citizen 70+ universal cover module live on beneficiary.nha.gov.in.",
+      "keywords": [
+        "health insurance",
+        "hospital",
+        "ayushman",
+        "5 lakh",
+        "senior citizen"
+      ]
+    },
+    {
+      "id": "nsp",
+      "name": "National Scholarship Portal (NSP) Schemes",
+      "shortCode": "NSP",
+      "category": "Education scholarships",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Students"
+      ],
+      "description": "Single-window digital portal hosting Pre-Matric, Post-Matric, Merit-cum-Means, and Central Sector Scholarships across Central Ministries and State Governments.",
+      "eligibility": [
+        "School, college, and university students meeting scheme-specific income, merit, and category thresholds.",
+        "One-Time Registration (OTR) on NSP is mandatory."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card & OTR ID.",
+        "Previous academic mark sheets and bonafide student certificate.",
+        "Family income certificate, caste/domicile certificate (if applicable), and Aadhaar-seeded bank account."
+      ],
+      "benefits": [
+        "Direct bank transfer of tuition fee reimbursement and maintenance allowances.",
+        "Transparent tracking from institute verification to DBT disbursement."
+      ],
+      "applicationProcedure": [
+        "Complete One-Time Registration (OTR) at scholarships.gov.in with Aadhaar face authentication.",
+        "Select eligible Central, UGC, AICTE, or State scholarship scheme and upload documents.",
+        "Ensure institute nodal officer verifies application before deadline."
+      ],
+      "importantConditions": [
+        "Annual scheme deadlines vary by ministry (typically October–December each academic year); verify exact dates on scholarships.gov.in.",
+        "Students cannot simultaneously avail multiple scholarships for the same course unless permitted."
+      ],
+      "deadline": "Annual academic cycle (Verify exact dates on NSP portal)",
+      "officialWebsite": "https://scholarships.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "OTR (One-Time Registration) mandatory for all fresh and renewal NSP applications.",
+      "keywords": [
+        "scholarship",
+        "students",
+        "education",
+        "college",
+        "nsp"
+      ]
+    },
+    {
+      "id": "pmay",
+      "name": "Pradhan Mantri Awas Yojana (PMAY-U / PMAY-G)",
+      "shortCode": "PMAY",
+      "category": "Housing schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Families",
+        "Women",
+        "General Public"
+      ],
+      "description": "Flagship housing mission supporting EWS, LIG, and MIG urban households and rural families to build or acquire a pucca house with financial assistance or interest subsidies.",
+      "eligibility": [
+        "Family should not own a pucca house anywhere in India.",
+        "Household annual income must fall within notified EWS/LIG/MIG guidelines for the active phase (PMAY-U 2.0 / PMAY-G)."
+      ],
+      "requiredDocuments": [
+        "Aadhaar details of all family members.",
+        "Income proof, bank account details, and land/property documents where applicable."
+      ],
+      "benefits": [
+        "Interest subsidy or direct financial assistance depending on vertical (BLC, AHP, ISS, PMAY-G).",
+        "Preference for female ownership or co-ownership."
+      ],
+      "applicationProcedure": [
+        "Apply online via official PMAY-U 2.0 portal (pmaymis.gov.in) or through Urban Local Body / Gram Panchayat.",
+        "Track beneficiary assessment and sanction status online."
+      ],
+      "importantConditions": [
+        "Beneficiary must not have previously availed central housing assistance.",
+        "Verify active phase eligibility and state norms on pmaymis.gov.in."
+      ],
+      "deadline": "Verify active phase dates on PMAY portal",
+      "officialWebsite": "https://pmaymis.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "PMAY-U 2.0 unified web portal active for EWS/LIG/MIG urban applicants.",
+      "keywords": [
+        "housing",
+        "home",
+        "awas",
+        "subsidy",
+        "pmay"
+      ]
+    },
+    {
+      "id": "mudra",
+      "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "shortCode": "PMMY",
+      "category": "Small business schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Small Business",
+        "Women",
+        "General Public"
+      ],
+      "description": "Collateral-free institutional credit up to ₹20 lakh (under Shishu, Kishore, Tarun, and Tarun Plus categories) for non-corporate, non-farm micro and small enterprises.",
+      "eligibility": [
+        "Indian citizens with a viable business plan in manufacturing, trading, services, or allied agriculture.",
+        "Existing or new micro/small enterprise proprietors without willful default history."
+      ],
+      "requiredDocuments": [
+        "Identity and address proof (Aadhaar, PAN, Voter ID).",
+        "Business registration/address proof, quotation for machinery/equipment, and 6-month bank statement."
+      ],
+      "benefits": [
+        "Shishu: up to ₹50,000; Kishore: ₹50,001 to ₹5 lakh; Tarun: ₹5 lakh to ₹10 lakh; Tarun Plus: ₹10 lakh to ₹20 lakh (for successful previous Tarun borrowers).",
+        "No collateral security required for MUDRA loans."
+      ],
+      "applicationProcedure": [
+        "Apply online through JanSamarth Portal (jansamarth.in) or Udyami Mitra portal, or visit a PSU/Private Bank, RRB, or MFI.",
+        "Submit business project report and KYC documents."
+      ],
+      "importantConditions": [
+        "Interest rates are determined by lending banks based on RBI guidelines.",
+        "Repayment discipline affects eligibility for higher MUDRA tiers."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://www.mudra.org.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Tarun Plus category up to ₹20 lakh introduced for repeat successful borrowers.",
+      "keywords": [
+        "business loan",
+        "mudra",
+        "startup",
+        "msme",
+        "collateral free"
+      ]
+    },
+    {
+      "id": "gruha-lakshmi-ka",
+      "name": "Gruha Lakshmi Scheme (Karnataka)",
+      "shortCode": "Gruha Lakshmi",
+      "category": "Women empowerment schemes",
+      "level": "Karnataka Government",
+      "stateName": "Karnataka",
+      "targetAudiences": [
+        "Women",
+        "Families"
+      ],
+      "description": "Karnataka State Government financial assistance programme providing ₹2,000 per month via DBT to the woman head of eligible households holding BPL, APL, or Antyodaya ration cards.",
+      "eligibility": [
+        "Woman head of the family listed on Antyodaya, BPL, or APL ration card issued in Karnataka.",
+        "Applicant or spouse must not be an income tax payer or GST-registered business owner."
+      ],
+      "requiredDocuments": [
+        "Ration Card (BPL/APL/Antyodaya) mentioning woman head of family.",
+        "Aadhaar Card of applicant and spouse.",
+        "Aadhaar-seeded active bank account passbook."
+      ],
+      "benefits": [
+        "₹2,000 monthly direct bank transfer to support household nutrition, education, and financial independence."
+      ],
+      "applicationProcedure": [
+        "Apply via Seva Sindhu portal (sevasindhugs.karnataka.gov.in) or visit Grama One, Karnataka One, or Bangalore One centers.",
+        "Complete Aadhaar e-KYC and ration card verification."
+      ],
+      "importantConditions": [
+        "Only one woman head per ration card is eligible.",
+        "Bank account must be linked with Aadhaar for DBT."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://sevasindhugs.karnataka.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Applications processed through Seva Sindhu Guarantee Scheme portal and Karnataka One centres.",
+      "keywords": [
+        "karnataka",
+        "women",
+        "gruha lakshmi",
+        "2000",
+        "seva sindhu"
+      ]
+    },
+    {
+      "id": "yuva-nidhi-ka",
+      "name": "Yuva Nidhi Scheme (Karnataka)",
+      "shortCode": "Yuva Nidhi",
+      "category": "Employment schemes",
+      "level": "Karnataka Government",
+      "stateName": "Karnataka",
+      "targetAudiences": [
+        "Students",
+        "General Public"
+      ],
+      "description": "Karnataka State unemployment financial support scheme assisting recent domiciled graduates and diploma holders while they seek employment or pursue skill training.",
+      "eligibility": [
+        "Domicile of Karnataka (studied in Karnataka for at least 6 years up to graduation/diploma).",
+        "Passed degree or diploma in the notified academic year and remained unemployed after 6 months of passing.",
+        "Not pursuing higher education, self-employment with loans, or receiving ESIC/PF/NPS benefits."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card and Ration Card / Domicile proof.",
+        "Degree or Diploma marks cards / provisional certificate.",
+        "Aadhaar-linked bank account and monthly self-declaration."
+      ],
+      "benefits": [
+        "₹3,000 per month for degree holders and ₹1,500 per month for diploma holders for up to 24 months or until employed."
+      ],
+      "applicationProcedure": [
+        "Register on Seva Sindhu Guarantee Portal (sevasindhugs.karnataka.gov.in) or visit Karnataka One / Grama One.",
+        "Submit monthly unemployment self-declaration online."
+      ],
+      "importantConditions": [
+        "Assistance stops immediately upon securing employment or completing 24 months.",
+        "Monthly self-declaration is mandatory to continue DBT."
+      ],
+      "deadline": "Verify eligible passing-year window on Seva Sindhu",
+      "officialWebsite": "https://sevasindhugs.karnataka.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Monthly self-declaration and DBT tracking available via Seva Sindhu.",
+      "keywords": [
+        "karnataka",
+        "youth",
+        "students",
+        "unemployment",
+        "yuva nidhi"
+      ]
+    },
+    {
+      "id": "scss",
+      "name": "Senior Citizen Savings Scheme (SCSS)",
+      "shortCode": "SCSS",
+      "category": "Senior citizen schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "Senior Citizens"
+      ],
+      "description": "Government-guaranteed quarterly income savings scheme tailored for senior citizens offering regular quarterly payouts and high sovereign safety.",
+      "eligibility": [
+        "Indian residents aged 60 years or above.",
+        "Retired civilian employees aged 55–60 (if invested within 1 month of retirement benefits) and retired defence personnel aged 50+."
+      ],
+      "requiredDocuments": [
+        "Aadhaar Card, PAN Card, and age/retirement proof.",
+        "Passport-size photographs and filled Form 1."
+      ],
+      "benefits": [
+        "Maximum deposit limit of ₹30,00,000 per individual.",
+        "Quarterly interest payout directly to linked savings account.",
+        "5-year tenure extendable by 3 years."
+      ],
+      "applicationProcedure": [
+        "Open at any Post Office or authorized public/private bank branch.",
+        "Deposit in multiples of ₹1,000 up to ₹30 lakh."
+      ],
+      "importantConditions": [
+        "Interest earned is taxable and subject to TDS above prescribed senior citizen threshold (Sec 194A / 80TTB in Old Regime).",
+        "Premature withdrawal incurs nominal deduction depending on tenure elapsed."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://www.nsiindia.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Maximum deposit limit stands at ₹30 lakh; check current quarterly rate on nsiindia.gov.in.",
+      "keywords": [
+        "senior citizen",
+        "pensioners",
+        "quarterly income",
+        "scss",
+        "post office"
+      ]
+    },
+    {
+      "id": "myscheme-portal",
+      "name": "MyScheme National Unified Scheme Discovery Portal",
+      "shortCode": "myScheme",
+      "category": "Financial inclusion schemes",
+      "level": "Central Government",
+      "targetAudiences": [
+        "General Public",
+        "Women",
+        "Students",
+        "Farmers",
+        "Senior Citizens"
+      ],
+      "description": "Official Government of India platform by MeitY/NeGD allowing citizens to discover personalized Central and State welfare schemes based on age, state, income, and occupation.",
+      "eligibility": [
+        "Open to all Indian residents across every state and union territory."
+      ],
+      "requiredDocuments": [
+        "No documents needed to check eligibility; scheme-specific documents listed on each scheme card."
+      ],
+      "benefits": [
+        "Covers 2,000+ Central and State Government schemes with verified eligibility checker.",
+        "Direct links to official application portals."
+      ],
+      "applicationProcedure": [
+        "Visit myscheme.gov.in and enter basic profile details (state, age, gender, category, occupation).",
+        "Review matched schemes and click official apply links."
+      ],
+      "importantConditions": [
+        "Always verify scheme-specific deadlines on the respective ministry/state portal."
+      ],
+      "deadline": "Ongoing",
+      "officialWebsite": "https://www.myscheme.gov.in/",
+      "lastVerifiedDate": "2026-10-15",
+      "latestUpdate": "Official national aggregator maintained by National e-Governance Division (NeGD).",
+      "keywords": [
+        "myscheme",
+        "india.gov.in",
+        "state schemes",
+        "central schemes",
+        "eligibility"
+      ]
+    }
+  ],
+  "learningTopics": [
+    {
+      "id": "learn-money-banks",
+      "categoryId": "basic_knowledge",
+      "categoryName": "Basic Financial Knowledge",
+      "title": "What is Money & What Does a Bank Do?",
+      "level": "Beginner",
+      "readTimeMinutes": 4,
+      "simpleExplanation": "Money is an accepted medium of exchange used to buy goods, pay for services, and store value for future needs. A bank is a regulated financial institution (licensed by the RBI in India) that safeguards your money, pays interest on deposits, enables digital payments, and lends funds responsibly.",
+      "realLifeExample": "Suppose Ramesh earns ₹18,000/month as a technician. Instead of keeping cash at home—where it earns zero interest and risks theft—he deposits it in his savings account. The bank keeps it safe, pays ~2.7%–3.5% annual interest, and lets him pay bills via UPI.",
+      "visualDiagramSummary": [
+        {
+          "label": "Medium of Exchange",
+          "value": "₹ Notes / UPI",
+          "note": "Replaces barter so anyone can trade goods easily"
+        },
+        {
+          "label": "Store of Value",
+          "value": "Bank Deposit",
+          "note": "Protected by DICGC insurance up to ₹5 lakh per bank"
+        },
+        {
+          "label": "Credit Intermediation",
+          "value": "Loans",
+          "note": "Depositors’ pooled savings fund home/education/business loans"
+        }
+      ],
+      "importantPoints": [
+        "RBI-regulated scheduled banks insure deposits up to ₹5,00,000 per depositor per bank via DICGC.",
+        "Keeping excess cash idle at home loses purchasing power each year due to inflation.",
+        "Always verify a bank or NBFC registration on the RBI website before depositing money."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Up to what amount are bank deposits insured per depositor per bank by DICGC in India?",
+          "options": [
+            "₹1,00,000",
+            "₹5,00,000",
+            "₹10,00,000",
+            "No insurance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Under DICGC rules, eligible bank deposits (principal + interest) are insured up to ₹5 lakh per depositor per bank."
+        },
+        {
+          "id": "q2",
+          "question": "Why is keeping all savings as physical cash at home risky?",
+          "options": [
+            "It earns zero interest and loses value to inflation",
+            "Banks charge fees to count cash",
+            "Cash expires every year",
+            "Cash cannot buy groceries"
+          ],
+          "correctIndex": 0,
+          "explanation": "Physical cash earns 0% return, faces theft/damage risk, and loses real purchasing power to inflation."
+        }
+      ]
+    },
+    {
+      "id": "learn-bank-accounts",
+      "categoryId": "basic_knowledge",
+      "categoryName": "Basic Financial Knowledge",
+      "title": "Types of Bank Accounts: Savings, Current, FD & RD",
+      "level": "Beginner",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "Banks offer specialized accounts for different goals: Savings Accounts for everyday household income and emergency cash; Current Accounts for businesses with frequent high-volume transactions (0% interest); Fixed Deposits (FD) for locking a lump sum at higher fixed interest; and Recurring Deposits (RD) for saving a fixed monthly amount.",
+      "realLifeExample": "Ananya keeps ₹30,000 in her Savings Account for monthly bills, puts ₹2,000/month into a 12-month RD for her laptop goal, and places a ₹50,000 family bonus in a 2-year FD at 7% p.a.",
+      "visualDiagramSummary": [
+        {
+          "label": "Savings Account",
+          "value": "2.5% – 4% p.a.",
+          "note": "Instant liquidity via ATM, UPI, NEFT"
+        },
+        {
+          "label": "Current Account",
+          "value": "0% interest",
+          "note": "Designed for businesses; unlimited daily transactions"
+        },
+        {
+          "label": "Fixed / Recurring Deposit",
+          "value": "6% – 7.5% p.a.",
+          "note": "Fixed tenure lock-in with higher predictable return"
+        }
+      ],
+      "importantPoints": [
+        "Never use a Current Account for personal idle savings since it pays no interest.",
+        "BSBDA / Jan Dhan savings accounts require zero minimum balance.",
+        "Check premature withdrawal penalty rules before opening an FD or RD."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which account is best suited for a shopkeeper making 30+ daily business transactions?",
+          "options": [
+            "Savings Account",
+            "Current Account",
+            "Recurring Deposit",
+            "PPF Account"
+          ],
+          "correctIndex": 1,
+          "explanation": "Current Accounts are built for frequent commercial transactions without typical savings withdrawal caps."
+        }
+      ]
+    },
+    {
+      "id": "learn-cards-upi",
+      "categoryId": "basic_knowledge",
+      "categoryName": "Basic Financial Knowledge",
+      "title": "Debit Cards, Credit Cards, UPI & Digital Banking",
+      "level": "Beginner",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "A Debit Card spends money directly from your bank balance. A Credit Card lets you borrow money up to a limit and repay it by the billing due date (usually interest-free for 20–45 days if paid in full). UPI (Unified Payments Interface) enables instant mobile bank-to-bank transfers 24/7 using a VPA or QR code.",
+      "realLifeExample": "When Priya buys groceries for ₹1,200 via UPI or Debit Card, ₹1,200 leaves her bank immediately. If she uses a Credit Card and pays only the minimum due instead of the full ₹1,200, she could face 36%–42% annualized interest on the remaining balance.",
+      "visualDiagramSummary": [
+        {
+          "label": "UPI",
+          "value": "Instant · ₹0 Fee",
+          "note": "Requires bank account + UPI PIN; never enter PIN to receive money"
+        },
+        {
+          "label": "Debit Card",
+          "value": "Your Own Funds",
+          "note": "Cannot spend beyond account balance (unless overdraft enabled)"
+        },
+        {
+          "label": "Credit Card",
+          "value": "Short-Term Loan",
+          "note": "Always pay Total Amount Due before due date to avoid ~36%+ APR"
+        }
+      ],
+      "importantPoints": [
+        "Entering a UPI PIN is ONLY needed to send money—never to receive money.",
+        "Paying only the \"Minimum Amount Due\" on a credit card triggers heavy compounding interest.",
+        "Enable transaction SMS alerts and set sensible daily UPI/card limits in your banking app."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "When someone sends you money via UPI, do you need to enter your UPI PIN?",
+          "options": [
+            "Yes, always",
+            "Only for amounts over ₹5,000",
+            "No, PIN is only required to send money",
+            "Only on weekends"
+          ],
+          "correctIndex": 2,
+          "explanation": "You NEVER enter your UPI PIN to receive money. Requests asking for your PIN to receive funds are fraud."
+        }
+      ]
+    },
+    {
+      "id": "learn-household-budget",
+      "categoryId": "saving_budgeting",
+      "categoryName": "Saving and Budgeting",
+      "title": "How to Prepare a Household Budget & Needs vs Wants",
+      "level": "Beginner",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "A household budget is a monthly plan deciding where every rupee of income goes before it is spent. Separating Needs (rent, staple groceries, school fees, utilities, essential medicine) from Wants (food delivery, streaming, impulse shopping) keeps your family financially stable.",
+      "realLifeExample": "With ₹30,000 monthly family income, allocating ₹15,000 (50%) to essential Needs, ₹9,000 (30%) to Wants/lifestyle, and ₹6,000 (20%) to Savings first ensures ₹72,000 saved in one year.",
+      "visualDiagramSummary": [
+        {
+          "label": "Needs (50%)",
+          "value": "Rent · Food · Bills",
+          "note": "Non-negotiable survival and obligation costs"
+        },
+        {
+          "label": "Wants (30%)",
+          "value": "Dining · Gadgets",
+          "note": "Discretionary upgrades you can pause during tight months"
+        },
+        {
+          "label": "Savings First (20%)",
+          "value": "Goals · Emergency",
+          "note": "Transfer savings on salary day rather than saving leftovers"
+        }
+      ],
+      "importantPoints": [
+        "Follow \"Income − Savings = Expenses\" instead of \"Income − Expenses = Savings\".",
+        "Track small daily ₹50–₹200 UPI spends; they often add up to ₹3,000+ monthly.",
+        "Review and adjust category limits at the end of every month."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which golden formula builds reliable monthly savings?",
+          "options": [
+            "Income − Expenses = Savings",
+            "Income − Savings = Expenses",
+            "Borrowing − Expenses = Savings",
+            "Spending everything first"
+          ],
+          "correctIndex": 1,
+          "explanation": "Setting aside savings immediately when income arrives ensures goals are funded before discretionary spending."
+        }
+      ]
+    },
+    {
+      "id": "learn-emergency-fund",
+      "categoryId": "saving_budgeting",
+      "categoryName": "Saving and Budgeting",
+      "title": "Emergency Funds & Financial Discipline",
+      "level": "Beginner",
+      "readTimeMinutes": 4,
+      "simpleExplanation": "An emergency fund is 3 to 6 months of essential monthly household expenses kept in an easily accessible place (savings account, sweep-in FD, or liquid mutual fund). It prevents you from taking high-interest personal loans during medical emergencies or job loss.",
+      "realLifeExample": "If a household’s essential expenses (rent, groceries, bills, school fees) total ₹18,000/month, an ideal emergency fund target is ₹54,000 (3 months) to ₹1,08,000 (6 months).",
+      "visualDiagramSummary": [
+        {
+          "label": "Starter Target",
+          "value": "1 Month Expenses",
+          "note": "Immediate buffer against minor repairs or medical bills"
+        },
+        {
+          "label": "Core Target",
+          "value": "3–6 Months Expenses",
+          "note": "Protects family during job transitions or major crises"
+        },
+        {
+          "label": "Where to Keep",
+          "value": "High liquidity",
+          "note": "Never lock emergency funds in stocks or 5-year illiquid assets"
+        }
+      ],
+      "importantPoints": [
+        "Build your emergency fund before starting risky market investments.",
+        "Use it strictly for genuine emergencies—not vacations or festival shopping.",
+        "Replenish the fund promptly whenever you withdraw from it."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "If essential monthly household costs are ₹20,000, what is a 6-month emergency fund target?",
+          "options": [
+            "₹40,000",
+            "₹60,000",
+            "₹1,20,000",
+            "₹2,40,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "6 × ₹20,000 = ₹1,20,000 covers half a year of essential living costs."
+        }
+      ]
+    },
+    {
+      "id": "learn-compounding-risk",
+      "categoryId": "investment_education",
+      "categoryName": "Investment Education",
+      "title": "Power of Compounding & Risk vs Return",
+      "level": "Beginner",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "Compounding means earning returns not just on your original money, but also on the returns earned in earlier years. Risk and return move together: safer instruments like FDs and PPF offer modest, predictable returns, while equity shares and equity mutual funds fluctuate in the short term but aim for higher long-term growth.",
+      "realLifeExample": "Investing ₹5,000/month at an illustrative 12% p.a. grows to ~₹11.6 lakh in 10 years (₹6L invested), but grows to ~₹49.9 lakh in 20 years (₹12L invested) because compounding accelerates in later years. (Note: Market returns are not guaranteed.)",
+      "visualDiagramSummary": [
+        {
+          "label": "Low Risk · Fixed",
+          "value": "PPF · FD · RD",
+          "note": "Capital stability; returns may barely beat inflation after tax"
+        },
+        {
+          "label": "Moderate Risk",
+          "value": "Hybrid / Debt Funds",
+          "note": "Mix of bonds and equities for 3–5 year goals"
+        },
+        {
+          "label": "Higher Volatility",
+          "value": "Equity / Index Funds",
+          "note": "Suited for 5+ year horizons; short-term dips are normal"
+        }
+      ],
+      "importantPoints": [
+        "Starting 5 years earlier often beats investing twice as much later.",
+        "Never invest money needed within 1–2 years into volatile stock markets.",
+        "Always verify whether an investment product is regulated by SEBI, RBI, or PFRDA."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which statement accurately describes risk and return?",
+          "options": [
+            "High returns always come with zero risk",
+            "Higher potential long-term returns usually involve higher short-term price fluctuations",
+            "FD returns fluctuate daily with stock markets",
+            "Compounding only works for 1 year"
+          ],
+          "correctIndex": 1,
+          "explanation": "Risk and potential return are linked; assets with higher long-term growth potential experience short-term volatility."
+        }
+      ]
+    },
+    {
+      "id": "learn-shares-mf-sip",
+      "categoryId": "investment_education",
+      "categoryName": "Investment Education",
+      "title": "Shares, Stock Market, Mutual Funds & SIP Explained",
+      "level": "Intermediate",
+      "readTimeMinutes": 6,
+      "simpleExplanation": "A Share represents fractional ownership in a company traded on exchanges like NSE or BSE. A Mutual Fund pools money from many investors and invests across dozens of stocks or bonds managed by SEBI-registered professionals. A SIP (Systematic Investment Plan) lets you invest a fixed amount (even ₹500/month) automatically into a mutual fund.",
+      "realLifeExample": "Instead of trying to guess one winning company stock, Meera invests ₹2,500/month via SIP into a Nifty 50 Index Mutual Fund. She buys more units when markets dip and fewer when prices rise (rupee cost averaging).",
+      "visualDiagramSummary": [
+        {
+          "label": "Direct Shares",
+          "value": "Single Company",
+          "note": "Requires deep research; high company-specific risk"
+        },
+        {
+          "label": "Mutual Fund",
+          "value": "Diversified Basket",
+          "note": "Spreads money across 30–50+ companies or bonds"
+        },
+        {
+          "label": "SIP",
+          "value": "Automated Monthly",
+          "note": "Builds investing habit and reduces market-timing stress"
+        }
+      ],
+      "importantPoints": [
+        "Mutual fund investments are subject to market risks; past performance does not guarantee future returns.",
+        "Check Expense Ratio (Direct plans have lower ongoing fees than Regular plans).",
+        "Rupee cost averaging through SIP helps smooth out market ups and downs over long horizons."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "What is the primary benefit of a Mutual Fund over buying a single company share?",
+          "options": [
+            "Guaranteed fixed interest",
+            "Automatic diversification across many securities",
+            "Zero market risk",
+            "Instant government subsidy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mutual funds spread your investment across multiple companies or bonds, reducing single-company risk."
+        }
+      ]
+    },
+    {
+      "id": "learn-ppf-nps",
+      "categoryId": "investment_education",
+      "categoryName": "Investment Education",
+      "title": "Long-Term Retirement Tools: PPF & NPS",
+      "level": "Intermediate",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "PPF (Public Provident Fund) is a 15-year sovereign-backed fixed-return savings scheme with tax-free returns. NPS (National Pension System) is a PFRDA-regulated retirement investment linking equity, corporate debt, and government bonds to build a retirement pension corpus until age 60.",
+      "realLifeExample": "Vikram allocates ₹3,000/month to PPF for safe tax-free debt growth and ₹4,000/month to NPS Tier-I for long-term retirement wealth with additional tax deduction benefits.",
+      "visualDiagramSummary": [
+        {
+          "label": "PPF",
+          "value": "15-Year Tenure",
+          "note": "Sovereign guarantee, EEE tax benefit, fixed quarterly-notified rate"
+        },
+        {
+          "label": "NPS Tier-I",
+          "value": "Age 60 Retirement",
+          "note": "Market-linked allocation across Equity (E), Corporate (C), Govt Bonds (G)"
+        },
+        {
+          "label": "NPS Exit Rule",
+          "value": "60% Lump Sum + 40% Annuity",
+          "note": "At least 40% purchases a monthly pension annuity at age 60"
+        }
+      ],
+      "importantPoints": [
+        "PPF is 100% debt/fixed-income; NPS allows choosing up to 75% equity allocation.",
+        "NPS Tier-I has exit restrictions until age 60 (with limited partial withdrawal rules).",
+        "Check Old vs New Tax Regime rules before investing solely for tax deductions."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which regulator oversees the National Pension System (NPS) in India?",
+          "options": [
+            "TRAI",
+            "PFRDA",
+            "IRDAI",
+            "FSSAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Pension Fund Regulatory and Development Authority (PFRDA) regulates NPS and Atal Pension Yojana."
+        }
+      ]
+    },
+    {
+      "id": "learn-loans-emi",
+      "categoryId": "loans_credit",
+      "categoryName": "Loans and Credit",
+      "title": "Loans, Interest Rates & How EMI Works",
+      "level": "Beginner",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "A loan is borrowed money repaid over time with interest (the cost of borrowing). EMI (Equated Monthly Installment) combines both principal repayment and interest into one fixed monthly payment. In early years, a larger portion of your EMI goes toward interest; in later years, more goes toward principal.",
+      "realLifeExample": "On a ₹5,00,000 car loan at 9% p.a. for 5 years, your EMI is ₹10,379/month. Total paid over 60 months is ₹6,22,750—meaning ₹1,22,750 goes purely toward interest.",
+      "visualDiagramSummary": [
+        {
+          "label": "Secured Loans",
+          "value": "Home / Gold / Car",
+          "note": "Backed by collateral; lower interest rates (7.5%–11%)"
+        },
+        {
+          "label": "Unsecured Loans",
+          "value": "Personal / Credit Card",
+          "note": "No collateral; much higher rates (11%–40%)"
+        },
+        {
+          "label": "Prepayment Power",
+          "value": "Reduces Principal",
+          "note": "Even 1 extra EMI/year can cut years off a home loan"
+        }
+      ],
+      "importantPoints": [
+        "Always compare Reducing Balance interest rates rather than Flat interest rates.",
+        "Keep total household EMIs under 35%–40% of monthly net income.",
+        "Check processing fees, prepayment charges, and foreclosure terms before signing."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Why are Personal Loans usually more expensive than Home Loans?",
+          "options": [
+            "Home loans have no interest",
+            "Personal loans are unsecured without collateral",
+            "Personal loans last 40 years",
+            "Banks prefer personal loans"
+          ],
+          "correctIndex": 1,
+          "explanation": "Without physical collateral like a house, lenders face higher default risk on personal loans and charge higher interest."
+        }
+      ]
+    },
+    {
+      "id": "learn-credit-score",
+      "categoryId": "loans_credit",
+      "categoryName": "Loans and Credit",
+      "title": "Credit Score (CIBIL) & Responsible Loan Repayment",
+      "level": "Intermediate",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "Your credit score (300–900, tracked by bureaus like TransUnion CIBIL, Experian, Equifax, CRIF High Mark) reflects how reliably you repay loans and credit cards. A score of 750+ improves loan approval odds and helps negotiate lower interest rates.",
+      "realLifeExample": "Two borrowers apply for a ₹20 lakh home loan. Borrower A (score 790) gets 8.50% p.a.; Borrower B (score 630) gets 9.50% p.a. or rejection. Over 20 years, 1% extra interest costs over ₹2.8 lakh more.",
+      "visualDiagramSummary": [
+        {
+          "label": "Payment History (~35%)",
+          "value": "On-Time EMIs",
+          "note": "Even one 30-day late payment lowers your score significantly"
+        },
+        {
+          "label": "Credit Utilization (~30%)",
+          "value": "Keep < 30% Limit",
+          "note": "Using ₹90k of a ₹1L card limit signals credit stress"
+        },
+        {
+          "label": "Hard Inquiries",
+          "value": "Apply Selectively",
+          "note": "Applying to 6 lenders at once hurts your credit profile"
+        }
+      ],
+      "importantPoints": [
+        "You are entitled to one free full credit report per year from each RBI-licensed bureau.",
+        "Never co-sign or guarantee a friend’s loan unless you are prepared to repay it yourself.",
+        "Close unused credit cards carefully—older accounts help credit age history."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "What credit card utilization ratio is generally considered healthy for your credit score?",
+          "options": [
+            "95% of your limit",
+            "Under 30% of your limit",
+            "100% every month",
+            "Utilization does not matter"
+          ],
+          "correctIndex": 1,
+          "explanation": "Keeping credit card balances below 30% of your total limit signals disciplined credit management."
+        }
+      ]
+    },
+    {
+      "id": "learn-income-tax-gst-tds",
+      "categoryId": "tax_education",
+      "categoryName": "Tax Education",
+      "title": "Income Tax, GST, TDS & Old vs New Tax Regime",
+      "level": "Intermediate",
+      "readTimeMinutes": 6,
+      "simpleExplanation": "Income Tax is a direct tax paid on annual earnings above exemption thresholds. GST (Goods and Services Tax) is an indirect consumption tax included in goods/services you buy (0%, 5%, 12%, 18%, 28%). TDS (Tax Deducted at Source) is tax deducted upfront by employers or banks before paying salary or FD interest. India offers two Income Tax Regimes: New (default, lower slab rates, fewer exemptions) and Old (retains 80C, 80D, HRA deductions).",
+      "realLifeExample": "If a bank pays ₹55,000 FD interest in a year (above TDS threshold), it deducts 10% TDS (₹5,500) with PAN. If your total annual income is below the taxable rebate limit, you claim that ₹5,500 back by filing an Income Tax Return (ITR).",
+      "visualDiagramSummary": [
+        {
+          "label": "Direct Tax",
+          "value": "Income Tax · TDS",
+          "note": "Based on your annual income slabs and PAN"
+        },
+        {
+          "label": "Indirect Tax",
+          "value": "GST (CGST + SGST)",
+          "note": "Paid at point of purchase on goods & services"
+        },
+        {
+          "label": "Regime Choice",
+          "value": "New vs Old",
+          "note": "Compare both each year using total eligible deductions"
+        }
+      ],
+      "importantPoints": [
+        "Filing ITR on time lets you claim TDS refunds and creates official income proof for loans and visas.",
+        "Always verify your Form 26AS and AIS (Annual Information Statement) on incometax.gov.in before filing.",
+        "Tax rules and rebate thresholds change via annual Finance Acts—always confirm current FY slabs."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "How can you get a refund if excess TDS was deducted from your salary or FD interest?",
+          "options": [
+            "Visit an ATM",
+            "File your Income Tax Return (ITR)",
+            "Call your telecom provider",
+            "TDS can never be refunded"
+          ],
+          "correctIndex": 1,
+          "explanation": "Filing your annual Income Tax Return (ITR) reconciles tax owed vs TDS deducted and triggers refunds for excess tax."
+        }
+      ]
+    },
+    {
+      "id": "learn-cyber-upi-safety",
+      "categoryId": "financial_safety",
+      "categoryName": "Financial Safety",
+      "title": "UPI Fraud Awareness, Phishing & Safe Digital Banking",
+      "level": "Beginner",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "Digital financial fraud often relies on urgency, greed, or fear—not technical hacking. Common scams include fake \"receive money\" QR codes, screen-sharing APK downloads (\"AnyDesk/TeamViewer support\"), phishing KYC update SMS links, and \"Digital Arrest\" impersonation calls claiming to be police or customs officers.",
+      "realLifeExample": "A fraudster calls pretending to buy your old sofa on a classifieds site and sends a QR code saying \"Scan and enter your UPI PIN to receive ₹8,000.\" Scanning and entering a PIN actually DEBITS ₹8,000 from your account.",
+      "visualDiagramSummary": [
+        {
+          "label": "Golden UPI Rule",
+          "value": "PIN = Debit Only",
+          "note": "Never scan a QR code or enter PIN to receive money"
+        },
+        {
+          "label": "1930 Cyber Helpline",
+          "value": "Call Immediately",
+          "note": "Report cyber financial fraud at cybercrime.gov.in or dial 1930 within the golden hour"
+        },
+        {
+          "label": "Account Hygiene",
+          "value": "2FA + Unique Passwords",
+          "note": "Never share OTP, CVV, Aadhaar OTP, or screen-sharing access"
+        }
+      ],
+      "importantPoints": [
+        "No bank, RBI official, or police officer ever asks for your OTP, UPI PIN, or remote screen-sharing app.",
+        "If scammed online, call National Cyber Crime Helpline 1930 immediately and file at cybercrime.gov.in to freeze fraudster accounts.",
+        "Always check the exact URL domain (e.g. .gov.in, official bank domain) before logging in."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "What is the official national helpline number in India to report online financial fraud immediately?",
+          "options": [
+            "1000",
+            "1930",
+            "1400",
+            "9999"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dial 1930 (National Cyber Crime Helpline) and report on cybercrime.gov.in immediately so banks can attempt to freeze funds."
+        },
+        {
+          "id": "q2",
+          "question": "A caller claiming to be from your bank asks you to install a screen-sharing app to stop KYC suspension. What should you do?",
+          "options": [
+            "Install it quickly",
+            "Share your OTP",
+            "Hang up immediately and contact your bank via its official app/number",
+            "Send ₹1 to verify"
+          ],
+          "correctIndex": 2,
+          "explanation": "Banks never ask customers to install remote screen-sharing apps or share OTPs."
+        }
+      ]
+    },
+    {
+      "id": "learn-scams-passwords",
+      "categoryId": "financial_safety",
+      "categoryName": "Financial Safety",
+      "title": "Ponzi Scams, Fake Loan Apps & Password Security",
+      "level": "Advanced",
+      "readTimeMinutes": 5,
+      "simpleExplanation": "Unregulated Ponzi schemes and fake instant-loan apps promise unrealistic guaranteed returns (e.g., \"double your money in 30 days\") or instant cash without paperwork, then harvest phone contacts for extortion or disappear. Strong password hygiene—unique passphrases, password managers, and hardware/app-based 2FA—protects financial portals.",
+      "realLifeExample": "An unknown Telegram group promises 5% weekly guaranteed crypto/stock profit. Legitimate SEBI-regulated investments never guarantee fixed high equity returns; any \"guaranteed 5% weekly\" offer is a classic red flag.",
+      "visualDiagramSummary": [
+        {
+          "label": "Red Flag #1",
+          "value": "Guaranteed High Returns",
+          "note": "Returns far above FD/G-Sec rates with \"zero risk\" signal fraud"
+        },
+        {
+          "label": "Red Flag #2",
+          "value": "Unlisted Loan Apps",
+          "note": "Only borrow from RBI-registered banks/NBFCs; deny Contacts permission"
+        },
+        {
+          "label": "Password Rule",
+          "value": "Unique 12+ Chars",
+          "note": "Never reuse banking passwords across social or shopping websites"
+        }
+      ],
+      "importantPoints": [
+        "Check RBI’s Sachet portal (sachet.rbi.org.in) to verify deposit-taking entities or report unauthorized schemes.",
+        "Check app permissions: a genuine loan or utility app never needs access to your photo gallery or contact list.",
+        "Enable biometric lock and SIM PIN to guard against SIM-swap attacks."
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which of the following is the clearest warning sign of a financial scam?",
+          "options": [
+            "Returns linked to market performance with risk disclosures",
+            "Guaranteed 40% monthly profit with zero risk",
+            "SEBI registration number displayed and verifiable",
+            "Requirement to complete KYC"
+          ],
+          "correctIndex": 1,
+          "explanation": "Guaranteed ultra-high returns with \"zero risk\" are the hallmark of Ponzi and investment scams."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "Budgeting",
+      "question": "What is the 50/30/20 household budgeting guideline?",
+      "answer": "It suggests allocating roughly 50% of take-home income to essential Needs (rent, groceries, utilities, school fees), 30% to Wants (dining out, entertainment, discretionary shopping), and at least 20% to Savings and debt repayment."
+    },
+    {
+      "id": "faq-2",
+      "category": "Calculators",
+      "question": "Are SIP and Mutual Fund calculator results guaranteed?",
+      "answer": "No. Market-linked investments do not offer fixed or guaranteed returns. Calculator outputs are mathematical illustrations based on your assumed annual rate of return."
+    },
+    {
+      "id": "faq-3",
+      "category": "Government Schemes",
+      "question": "How often should I verify government scheme eligibility and deadlines?",
+      "answer": "Always check the official portal linked on each scheme card (such as myscheme.gov.in, nsiindia.gov.in, or scholarships.gov.in) before applying, as small savings interest rates and scholarship deadlines update periodically."
+    },
+    {
+      "id": "faq-4",
+      "category": "Offline & Sync",
+      "question": "Can I record expenses and use calculators without an internet connection?",
+      "answer": "Yes. This Progressive Web App caches calculators, learning modules, and your dashboard locally. Transactions added offline are marked as Unsynced and automatically sync once connectivity returns."
+    },
+    {
+      "id": "faq-5",
+      "category": "Taxation",
+      "question": "What is the difference between Old and New Income Tax Regimes in India?",
+      "answer": "The New Regime offers lower slab rates and a ₹75,000 standard deduction for salaried individuals but removes most Chapter VI-A deductions (80C, 80D, HRA). The Old Regime retains exemptions and deductions with higher base slab rates."
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "FY 2025-26 / AY 2026-27 Tax Estimator Rules Active",
+      "message": "Tax calculators use configurable Indian Income Tax slab assumptions including ₹75,000 standard deduction under the New Regime. You can adjust tax assumptions inside the Tax Calculator settings.",
+      "publishedAt": "2026-10-20",
+      "sourceUrl": "https://www.incometax.gov.in/"
+    },
+    {
+      "id": "ann-2",
+      "title": "Small Savings & Welfare Scheme Verification",
+      "message": "Scheme records in the directory display last-verified dates and direct links to official portals including myscheme.gov.in and nsiindia.gov.in.",
+      "publishedAt": "2026-10-15",
+      "sourceUrl": "https://www.myscheme.gov.in/"
+    }
+  ],
+  "resetTokens": {}
+}
